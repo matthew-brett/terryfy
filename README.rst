@@ -1,19 +1,5 @@
 Testing utilities for MacOS X on Travis-CI
 ==========================================
 
-This is a repo designed to be used a submodule for other packages that test and
-build python packages on OSX.
-
-There are bash functions to call for installing Python from python.org_
-downloads (with given version), `macports`_ and `homebrew`_.  Each of these can
-then be used to create a virtualenv_ in which to install and test packages.
-
-There are also simple bash functions for installing libraries using classic
-configure / make / install, or via cmake, and some utilities for working with
-waf_
-
-.. _python.org: http://python.org/download/
-.. _Macports: http://www.macports.org
-.. _homebrew: http://brew.sh
-.. _virtualenv: http://virtualenv.readthedocs.org/en/latest/virtualenv.html
-.. _waf: https://code.google.com/p/waf
+This is a personal fork. Please fork / clone the canonical version at
+http://github.com/MacPython/terryfy
